@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "project": {
+    "name": "cafe",
+    "productType": null,
+    "stack": [
+      "nextjs",
+      "react",
+      "tailwind-v4"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "src/app/globals.css"
+    ],
+    "components": [
+      "src/components/ui"
+    ],
+    "assets": [],
+    "instructions": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {
+      "--color-paper": {
+        "value": "#fffcf7",
+        "source": "src/app/globals.css"
+      },
+      "--color-oat": {
+        "value": "#f5eee3",
+        "source": "src/app/globals.css"
+      },
+      "--color-line": {
+        "value": "#e7ddcf",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink": {
+        "value": "#2b2521",
+        "source": "src/app/globals.css"
+      },
+      "--color-ink-soft": {
+        "value": "#6b6159",
+        "source": "src/app/globals.css"
+      },
+      "--color-sun": {
+        "value": "#f26b2a",
+        "source": "src/app/globals.css"
+      },
+      "--color-sun-deep": {
+        "value": "#d4561c",
+        "source": "src/app/globals.css"
+      },
+      "--color-cream": {
+        "value": "#fffcf7",
+        "source": "src/app/globals.css"
+      },
+      "--color-open": {
+        "value": "#2f8f3a",
+        "source": "src/app/globals.css"
+      },
+      "--color-error": {
+        "value": "#b3261e",
+        "source": "src/app/globals.css"
+      }
+    },
+    "typography": {
+      "--font-sans": {
+        "value": "var(--font-bricolage), ui-sans-serif, system-ui, sans-serif",
+        "source": "src/app/globals.css"
+      }
+    },
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [
+      "in-view",
+      "infinite-slider",
+      "magnetic",
+      "number-ticker",
+      "text-effect",
+      "text-roll",
+      "tilt"
+    ],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    {
+      "date": "2026-09-28",
+      "decision": "Redesign: \"one day at the café\". Scroll-linked sky (dawn blush, morning butter, noon sky, afternoon apricot, golden coral, dusk indigo) with sun orange for actions and aubergine ink; Bricolage Grotesque; soft shapes (arch-topped photos, pills). Replaces the roast direction."
+    },
+    {
+      "date": "2026-09-28",
+      "decision": "Motion: sun arc and scroll clock, parallax photo layers, pinned horizontal day gallery (desktop only), cursor-follow menu previews, circle clip reveal, Motion Primitives magnetic/tilt/text-effect/infinite-slider/text-roll/in-view. Reduced motion disables all movement."
+    },
+    {
+      "date": "2026-09-29",
+      "decision": "Palette: lighter, four colors only. Paper #fffcf7 and oat #f5eee3 alternate by section, ink #2b2521 for type, sun #f26b2a as the single accent. Removed the per-hour sky colors, pastel review cards, dark dusk section, moon and stars; only the footer stays dark."
+    },
+    {
+      "date": "2026-09-29",
+      "decision": "Polish pass from Awwwards café references: session-once sunrise intro, Lenis smooth scroll (mouse/trackpad only), pinned full-bleed window reveal, rolling button labels, spinning stamp, drag cursor on carousel, sliding-number clock, desktop film grain."
+    }
+  ],
+  "evidence": [
+    {
+      "fact": "components.installed",
+      "source": "src/components/ui"
+    },
+    {
+      "fact": "design.colorMode:light",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "design.tokens",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "project.instructions",
+      "source": "AGENTS.md"
+    },
+    {
+      "fact": "project.instructions",
+      "source": "CLAUDE.md"
+    },
+    {
+      "fact": "project.stack:nextjs",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:react",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:tailwind-v4",
+      "source": "package.json"
+    }
+  ],
+  "generatedAt": "2026-09-28T23:06:46.334Z"
+}
